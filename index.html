@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>大泉学園介護サロン | 理学療法士による健康講座</title>
+    <meta name="description" content="大泉学園駅北口徒歩1分。理学療法士による健康・介護講座を開催。参加費無料、どなたでも参加可能です。">
+    <meta name="keywords" content="介護サロン,大泉学園,理学療法士,健康講座,無料,体操,練馬区">
+    <meta name="author" content="大泉はなわクリニック">
+    
+    <!-- Open Graph メタデータ -->
+    <meta property="og:title" content="大泉学園介護サロン | 理学療法士による健康講座">
+    <meta property="og:description" content="大泉学園駅北口徒歩1分。理学療法士による健康・介護講座を開催。参加費無料、どなたでも参加可能です。">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://example.com">
+    <meta property="og:image" content="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80">
+    
+    <!-- Twitter Card メタデータ -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="大泉学園介護サロン | 理学療法士による健康講座">
+    <meta name="twitter:description" content="大泉学園駅北口徒歩1分。理学療法士による健康・介護講座を開催。参加費無料、どなたでも参加可能です。">
+    
+    <!-- フォント読み込み最適化 -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
+    <noscript><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet"></noscript>
+    <link href="https://fonts.googleapis.com/css2?family=Geist:wght@300;400;500;600;700&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
+    <noscript><link href="https://fonts.googleapis.com/css2?family=Geist:wght@300;400;500;600;700&display=swap" rel="stylesheet"></noscript>
+    
+    <!-- 外部ライブラリ -->
+    <script src="https://unpkg.com/lucide@latest" defer onerror="console.warn('Lucideアイコンの読み込みに失敗しました')"></script>
+    <script src="https://cdn.tailwindcss.com" defer onerror="console.warn('TailwindCSSの読み込みに失敗しました')"></script>
+    
+    <!-- スタイルシート -->
+    <link rel="stylesheet" href="css/style.css">
+    
+    <!-- 構造化データ -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "LocalBusiness",
+        "name": "大泉学園介護サロン",
+        "description": "理学療法士による健康・介護講座",
+        "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "東京都練馬区東大泉１丁目２８−７ フォンターナ琴坂 7F",
+            "addressLocality": "練馬区",
+            "addressRegion": "東京都",
+            "postalCode": "178-0063",
+            "addressCountry": "JP"
+        },
+        "telephone": "080-8046-4316",
+        "openingHours": "Mo-Fr 09:00-17:00",
+        "priceRange": "無料"
+    }
+    </script>
+</head>
+<body class="min-h-screen bg-gradient-to-br from-blue-50 via-sky-50 to-cyan-50" style="font-family: Inter, sans-serif;">
+    <!-- メインヘッダー -->
+    <header class="hero-section relative h-[40vh] md:h-[45vh] flex items-center justify-center overflow-hidden" role="banner">
+        <!-- 背景画像 -->
+        <div class="absolute inset-0 z-0">
+            <img src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?ixlib=rb-4.0.3&auto=format&fit=crop&w=2000&q=80" 
+                 alt="高齢者の方々が体操をしている様子" 
+                 class="w-full h-full object-cover"
+                 loading="eager">
+            <div class="absolute inset-0 bg-gradient-to-b from-black/50 via-black/40 to-black/60" aria-hidden="true"></div>
+        </div>
+        
+        <!-- ヒーローコンテンツ -->
+        <div class="relative z-10 text-center text-white px-6 max-w-4xl">
+            <div class="hero-content-wrapper">
+                <h1 class="hero-main-title text-3xl md:text-5xl lg:text-6xl font-bold font-space-grotesk mb-4 leading-tight">
+                    <span class="hero-text-line block opacity-0" data-delay="0">練馬区主催</span>
+                    <span class="hero-text-line block opacity-0" data-delay="500">学べる介護サロン</span>
+                </h1>
+                
+                <div class="hero-subtitle text-lg md:text-xl font-geist mb-6">
+                    <div class="hero-message-container">
+                        <p class="hero-message opacity-0" data-message="1">理学療法士による無料講座で<br>健やかな毎日をサポートします</p>
+                        <p class="hero-message opacity-0" data-message="2">大泉学園駅北口から徒歩1分！<br>フォンターナ琴坂7階で開催</p>
+                        <p class="hero-message opacity-0" data-message="3">健康づくりや介護や体操を覚えたい方<br>ぜひご参加ください！</p>
+                    </div>
+                </div>
+                
+
+            </div>
+        </div>
+        
+
+    </header>
+
+    <!-- メインコンテンツ -->
+    <main id="content" class="w-full max-w-6xl mx-auto overflow-hidden flex flex-col animate-blur-in bg-white/90 border-white/20 border rounded-3xl shadow-[0px_0px_0px_1px_rgba(0,0,0,0.06),0px_1px_1px_-0.5px_rgba(0,0,0,0.06),0px_3px_3px_-1.5px_rgba(0,0,0,0.06),_0px_6px_6px_-3px_rgba(0,0,0,0.06),0px_12px_12px_-6px_rgba(0,0,0,0.06),0px_24px_24px_-12px_rgba(0,0,0,0.06)] backdrop-blur-xl my-8 relative z-20" role="main">
+        <!-- 特徴セクション -->
+        <section class="pt-4 pb-8" aria-labelledby="features-heading">
+            <h2 id="features-heading" class="section-title text-2xl lg:text-3xl font-space-grotesk animate-fade-up delay-500">サロンの特徴</h2>
+            <div class="px-6 lg:px-12">
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-6" role="list">
+                <article class="enhanced-panel animate-fade-up delay-600" role="listitem">
+                    <div class="w-12 h-12 bg-gradient-to-br from-blue-400 to-blue-600 rounded-xl flex items-center justify-center mb-4 animate-fade-up delay-700" aria-hidden="true">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-6 h-6 text-white">
+                            <path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.29 1.51 4.04 3 5.5l7 7Z"></path>
+                        </svg>
+                    </div>
+                    <h3 class="subsection-title text-lg font-semibold font-geist animate-fade-up delay-800">専門講師による講座</h3>
+                    <p class="text-slate-600 font-geist animate-fade-up delay-900">理学療法士が講師として健康・介護に関するお話を担当します。専門的な知識を分かりやすくお伝えします。</p>
+                </article>
+                
+                <article class="enhanced-panel animate-fade-up delay-700" role="listitem">
+                    <div class="w-12 h-12 bg-gradient-to-br from-cyan-400 to-blue-500 rounded-xl flex items-center justify-center mb-4 animate-fade-up delay-800" aria-hidden="true">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-6 h-6 text-white">
+                            <path d="M3 12a9 9 0 0 1 9-9 9.75 9.75 0 0 1 6.74 2.74L21 8"></path>
+                            <path d="M21 3v5h-5"></path>
+                            <path d="M21 12a9 9 0 0 1-9 9 9.75 9.75 0 0 1-6.74-2.74L3 16"></path>
+                            <path d="M8 16H3v5"></path>
+                        </svg>
+                    </div>
+                    <h3 class="subsection-title text-lg font-semibold font-geist animate-fade-up delay-900">駅チカで通いやすい</h3>
+                    <p class="text-slate-600 font-geist animate-fade-up delay-1000">大泉学園駅北口から徒歩1分！フォンターナ琴坂（ローソンのビル7階）で開催しています。</p>
+                </article>
+                
+                <article class="enhanced-panel animate-fade-up delay-800" role="listitem">
+                    <div class="w-12 h-12 bg-gradient-to-br from-sky-400 to-indigo-500 rounded-xl flex items-center justify-center mb-4 animate-fade-up delay-900" aria-hidden="true">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-6 h-6 text-white">
+                            <circle cx="12" cy="12" r="10"></circle>
+                            <path d="m9 12 2 2 4-4"></path>
+                        </svg>
+                    </div>
+                    <h3 class="subsection-title text-lg font-semibold font-geist animate-fade-up delay-1000">実践的な内容</h3>
+                    <p class="text-slate-600 font-geist animate-fade-up delay-1100">前半は健康や介護の基礎講話、後半はみんなで簡単な体操を行います。どちらかのみの参加も歓迎です。</p>
+                </article>
+            </div>
+        </div>
+
+        <!-- 詳細情報セクション -->
+        <div class="py-8">
+            <h2 class="section-title text-2xl lg:text-3xl font-space-grotesk animate-fade-up delay-900">講座について</h2>
+            <div class="px-6 lg:px-12">
+            <!-- こんな方におすすめです -->
+            <div class="enhanced-panel animate-slide-right delay-1000 mb-8">
+                <h3 class="subsection-title text-xl font-semibold font-geist">こんな方におすすめです</h3>
+                
+                <div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
+                    <!-- 左側：おすすめ対象 -->
+                    <div>
+                        <ul class="enhanced-list font-geist">
+                            <li>健康づくりについて知りたい方</li>
+                            <li>介護について学びたい方</li>
+                            <li>簡単な体操を覚えたい方</li>
+                            <li>地域の仲間と交流したい方</li>
+                        </ul>
+                    </div>
+                    
+                    <!-- 右側：参加費・対象・予約案内 -->
+                    <div class="space-y-4">
+                        <!-- 参加費情報カード -->
+                        <div class="bg-gradient-to-r from-green-50 to-emerald-50 border border-green-100 rounded-xl p-4">
+                            <div class="flex items-center gap-3 mb-2">
+                                <div class="w-8 h-8 bg-gradient-to-r from-green-500 to-emerald-500 rounded-lg flex items-center justify-center">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-white">
+                                        <path d="M12 2v20m8-8H4"></path>
+                                    </svg>
+                                </div>
+                                <h4 class="text-lg font-semibold text-green-800 font-geist">参加費</h4>
+                            </div>
+                            <p class="text-2xl font-bold text-green-900 font-geist ml-11">無料</p>
+                        </div>
+                        
+                        <!-- 対象者情報カード -->
+                        <div class="bg-gradient-to-r from-blue-50 to-cyan-50 border border-blue-100 rounded-xl p-4">
+                            <div class="flex items-center gap-3 mb-2">
+                                <div class="w-8 h-8 bg-gradient-to-r from-blue-500 to-cyan-500 rounded-lg flex items-center justify-center">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-white">
+                                        <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
+                                        <circle cx="12" cy="7" r="4"></circle>
+                                    </svg>
+                                </div>
+                                <h4 class="text-lg font-semibold text-blue-800 font-geist">対象</h4>
+                            </div>
+                            <p class="text-base font-medium text-blue-900 font-geist ml-11">どなたでも参加可能</p>
+                        </div>
+                        
+                        <!-- 予約必要案内カード -->
+                        <div class="bg-gradient-to-r from-orange-50 to-amber-50 border border-orange-200 rounded-xl p-4">
+                            <div class="flex items-center gap-3">
+                                <div class="w-8 h-8 bg-gradient-to-r from-orange-500 to-amber-500 rounded-lg flex items-center justify-center flex-shrink-0">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-white">
+                                        <path d="M8 2v4"></path>
+                                        <path d="M16 2v4"></path>
+                                        <rect width="18" height="18" x="3" y="4" rx="2"></rect>
+                                        <path d="M3 10h18"></path>
+                                    </svg>
+                                </div>
+                                <div>
+                                    <h4 class="text-base font-semibold text-orange-800 font-geist">事前予約が必要です</h4>
+                                    <p class="text-sm text-orange-700 font-geist">お電話でお申し込みください</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- 講座の流れとスケジュール（二カラム） -->
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
+                <div class="enhanced-panel scroll-animate delay-200">
+                    <h3 class="subsection-title text-xl font-semibold font-geist scroll-animate delay-300">講座の流れ</h3>
+                    <div class="space-y-4">
+                        <div class="info-card scroll-animate delay-400">
+                            <div class="flex items-start gap-3">
+                                <div class="w-6 h-6 bg-gradient-to-r from-blue-500 to-cyan-500 text-white rounded-full flex items-center justify-center text-sm font-semibold">1</div>
+                                <div>
+                                    <h4 class="font-medium text-slate-900 font-geist">前半：健康や介護の基礎講話</h4>
+                                    <p class="text-slate-600 text-sm font-geist">専門知識を分かりやすく解説</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="info-card scroll-animate delay-500">
+                            <div class="flex items-start gap-3">
+                                <div class="w-6 h-6 bg-gradient-to-r from-blue-500 to-cyan-500 text-white rounded-full flex items-center justify-center text-sm font-semibold">2</div>
+                                <div>
+                                    <h4 class="font-medium text-slate-900 font-geist">後半：みんなで簡単な体操</h4>
+                                    <p class="text-slate-600 text-sm font-geist">実践的な運動を一緒に</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="info-card scroll-animate delay-600">
+                            <div class="flex items-start gap-3">
+                                <div class="w-6 h-6 bg-gradient-to-r from-blue-500 to-cyan-500 text-white rounded-full flex items-center justify-center text-sm font-semibold">3</div>
+                                <div>
+                                    <h4 class="font-medium text-slate-900 font-geist">お茶菓子タイム</h4>
+                                    <p class="text-slate-600 text-sm font-geist">ささやかなお茶の時間</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="enhanced-panel scroll-animate delay-300">
+                    <h3 class="subsection-title text-xl font-semibold font-geist scroll-animate delay-400">開催スケジュール</h3>
+                    <div class="space-y-4">
+                        <div class="info-card scroll-animate delay-500">
+                            <div class="flex items-center gap-3 mb-3">
+                                <div class="w-8 h-8 bg-gradient-to-r from-blue-500 to-indigo-600 rounded-lg flex items-center justify-center">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-white">
+                                        <rect width="18" height="18" x="3" y="4" rx="2" ry="2"></rect>
+                                        <line x1="16" x2="16" y1="2" y2="6"></line>
+                                        <line x1="8" x2="8" y1="2" y2="6"></line>
+                                        <line x1="3" x2="21" y1="10" y2="10"></line>
+                                    </svg>
+                                </div>
+                                <h4 class="font-medium text-slate-900 font-geist">開催頻度</h4>
+                            </div>
+                            <p class="text-slate-600 font-geist">2か月に1回程度</p>
+                        </div>
+                        
+                        <div class="info-card scroll-animate delay-600">
+                            <div class="flex items-center gap-3 mb-3">
+                                <div class="w-8 h-8 bg-gradient-to-r from-emerald-500 to-teal-600 rounded-lg flex items-center justify-center">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-white">
+                                        <path d="M8 2v4"></path>
+                                        <path d="M16 2v4"></path>
+                                        <rect width="18" height="18" x="3" y="4" rx="2"></rect>
+                                        <path d="M3 10h18"></path>
+                                        <path d="M8 14h.01"></path>
+                                        <path d="M12 14h.01"></path>
+                                        <path d="M16 14h.01"></path>
+                                        <path d="M8 18h.01"></path>
+                                        <path d="M12 18h.01"></path>
+                                    </svg>
+                                </div>
+                                <h4 class="font-medium text-slate-900 font-geist">次回予定</h4>
+                            </div>
+                            <p class="text-slate-900 font-semibold font-geist text-lg">9/11(木)1300-1500に開催</p>
+                            <div class="mt-3 text-sm text-slate-600 font-geist">
+                                <p>今後の予定：11月・1月・3月</p>
+                                <p>各回 木曜 13:00～15:00予定</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- 講師プロフィール・持ち物情報セクション -->
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-8">
+                <!-- 講師プロフィール -->
+                <div class="enhanced-panel scroll-animate delay-100">
+                    <h3 class="subsection-title text-xl font-semibold font-geist scroll-animate delay-200">担当PTプロフィール</h3>
+                    <div class="space-y-4">
+                        <div class="info-card scroll-animate delay-300">
+                            <div class="flex flex-col md:flex-row items-center md:items-start gap-6">
+                                <!-- プロフィール画像エリア -->
+                                <div class="flex-shrink-0">
+                                    <div class="w-24 h-24 md:w-32 md:h-32 bg-gradient-to-br from-slate-100 to-slate-200 rounded-2xl flex items-center justify-center border-2 border-slate-200 shadow-sm overflow-hidden">
+                                        <!-- 画像をここに配置してください -->
+                                        <img src="images/profile.png" 
+                                             alt="担当理学療法士のプロフィール写真" 
+                                             class="w-full h-full object-cover rounded-2xl"
+                                             onerror="this.style.display='none'; this.nextElementSibling.style.display='flex'">
+                                        <!-- フォールバック用アイコン -->
+                                        <div class="w-full h-full bg-gradient-to-r from-purple-500 to-indigo-600 rounded-2xl flex items-center justify-center" style="display: none;">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-white">
+                                                <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
+                                                <circle cx="12" cy="7" r="4"></circle>
+                                            </svg>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <!-- プロフィール情報 -->
+                                <div class="flex-1 text-center md:text-left">
+                                    <p class="text-slate-700 font-geist text-sm leading-relaxed mb-4">
+                                        <span class="font-semibold">年齢：</span>37歳<br>
+                                        <span class="font-semibold">経歴：</span>理学療法士歴11年<br>
+                                        <span class="font-semibold">専門：</span>練馬区を中心に訪問リハビを担当<br>
+                                        <span class="font-semibold">趣味：</span>ブレイクダンス
+                                    </p>
+                                    <p class="text-slate-600 font-geist text-sm italic bg-slate-50 p-3 rounded-lg">
+                                        「正しく動けば身体は変わる」を信念に、前向きに取り組めるリハビを心がけています。
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- 持ち物・服装情報 -->
+                <div class="enhanced-panel scroll-animate delay-200">
+                    <h3 class="subsection-title text-xl font-semibold font-geist scroll-animate delay-300">持ち物・服装</h3>
+                    <div class="space-y-4">
+                        <div class="info-card scroll-animate delay-400">
+                            <div class="flex items-start gap-3">
+                                <div class="w-10 h-10 bg-gradient-to-r from-emerald-500 to-green-600 rounded-lg flex items-center justify-center flex-shrink-0">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-white">
+                                        <path d="m9 12 2 2 4-4"></path>
+                                        <path d="M21 12c.552 0 1.005-.449.95-.998a10 10 0 0 0-8.953-8.951c-.55-.055-.998.398-.998.95v8a1 1 0 0 0 1 1z"></path>
+                                        <path d="M21.21 15.89A10 10 0 1 1 8 2.83"></path>
+                                    </svg>
+                                </div>
+                                <div class="flex-1">
+                                    <h4 class="font-semibold text-slate-900 font-geist mb-2">持ち物不要</h4>
+                                    <p class="text-slate-600 font-geist text-sm mb-3">
+                                        特別な持ち物は必要ありません。お気軽にご参加ください。
+                                    </p>
+                                    <h4 class="font-semibold text-slate-900 font-geist mb-2">服装</h4>
+                                    <p class="text-slate-600 font-geist text-sm">
+                                        動きやすい服装でお越しください。体操の際に動きやすい服装であれば十分です。
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- 練馬区公式リンク -->
+            <div class="enhanced-panel scroll-animate delay-300 mb-8">
+                <h3 class="subsection-title text-xl font-semibold font-geist scroll-animate delay-400">関連情報</h3>
+                <div class="info-card scroll-animate delay-500">
+                    <div class="flex items-start gap-3">
+                        <div class="w-10 h-10 bg-gradient-to-r from-blue-500 to-indigo-600 rounded-lg flex items-center justify-center flex-shrink-0">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-white">
+                                <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path>
+                                <path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path>
+                            </svg>
+                        </div>
+                        <div class="flex-1">
+                            <h4 class="font-semibold text-slate-900 font-geist mb-2">練馬区介護サービス公式ページ</h4>
+                            <p class="text-slate-600 font-geist text-sm mb-3">
+                                介護サロンやその他の介護サービスについての詳細情報をご確認いただけます。
+                            </p>
+                            <a href="https://www.city.nerima.tokyo.jp/hokenfukushi/koreisha/kaigoshashien.html" 
+                               target="_blank" 
+                               rel="noopener noreferrer" 
+                               class="inline-flex items-center gap-2 text-blue-600 hover:text-blue-700 font-medium text-sm transition-colors">
+                                練馬区介護サービスページへ
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                                    <polyline points="15,3 21,3 21,9"></polyline>
+                                    <line x1="10" x2="21" y1="14" y2="3"></line>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- アクセス・お問い合わせセクション -->
+        <div id="contact" class="px-6 lg:px-12 py-8">
+            <h2 class="section-title text-2xl lg:text-3xl font-space-grotesk text-center mb-8 scroll-animate">アクセス・お問い合わせ</h2>
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
+                <div class="enhanced-panel scroll-animate delay-100">
+                    <div class="space-y-6">
+                        <div>
+                            <div class="flex items-center gap-2 mb-3 scroll-animate delay-200">
+                                <div class="w-8 h-8 bg-gradient-to-r from-emerald-500 to-teal-600 rounded-lg flex items-center justify-center">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-white">
+                                        <path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"></path>
+                                        <circle cx="12" cy="10" r="3"></circle>
+                                    </svg>
+                                </div>
+                                <h3 class="text-lg font-semibold text-slate-900 font-geist">開催場所</h3>
+                            </div>
+                            <p class="text-slate-600 font-geist text-sm scroll-animate delay-300">〒178-0063</p>
+                            <p class="text-slate-600 font-geist scroll-animate delay-400">東京都練馬区東大泉１丁目２８−７</p>
+                            <p class="text-slate-600 font-geist scroll-animate delay-500">フォンターナ琴坂 7階</p>
+                            <p class="text-slate-600 font-geist scroll-animate delay-600">（ローソンのビル）</p>
+                            <p class="text-slate-600 font-geist scroll-animate delay-700">大泉学園駅北口から徒歩1分</p>
+                            
+                            <!-- Googleマップ -->
+                            <div class="mt-4 rounded-lg overflow-hidden shadow-lg">
+                                <iframe 
+                                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3238.32!2d139.5867!3d35.7495!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMzXCsDQ0JzU4LjIiTiAxMznCsDM1JzEyLjEiRQ!5e0!3m2!1sja!2sjp!4v1699999999999!5m2!1sja!2sjp&q=東京都練馬区東大泉1-28-7+フォンターナ琴坂" 
+                                    width="100%" 
+                                    height="200" 
+                                    style="border:0;" 
+                                    allowfullscreen="" 
+                                    loading="lazy" 
+                                    referrerpolicy="no-referrer-when-downgrade"
+                                    title="フォンターナ琴坂の位置">
+                                </iframe>
+                            </div>
+                            
+                            <div class="mt-3">
+                                <a href="https://maps.google.com/?q=178-0063+東京都練馬区東大泉1-28-7+フォンターナ琴坂" 
+                                   target="_blank" 
+                                   rel="noopener noreferrer" 
+                                   class="inline-flex items-center gap-2 text-blue-600 hover:text-blue-700 font-medium text-sm transition-colors">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                        <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                                        <polyline points="15,3 21,3 21,9"></polyline>
+                                        <line x1="10" x2="21" y1="14" y2="3"></line>
+                                    </svg>
+                                    Googleマップで開く
+                                </a>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+                
+                <div class="enhanced-panel scroll-animate delay-200">
+                    <div class="flex items-center gap-2 mb-4 scroll-animate delay-300">
+                        <div class="w-8 h-8 bg-gradient-to-r from-blue-500 to-cyan-500 rounded-lg flex items-center justify-center">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-white">
+                                <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92Z"></path>
+                            </svg>
+                        </div>
+                        <h3 class="text-lg font-semibold text-slate-900 font-geist">お申し込み・お問い合わせ</h3>
+                    </div>
+                    <p class="text-slate-600 font-geist mb-3 scroll-animate delay-400">担当：高橋（介護サロン専用窓口）</p>
+                    <div class="bg-gradient-to-r from-blue-500 to-cyan-500 text-white text-center py-4 px-6 rounded-xl mb-4 scroll-animate delay-500">
+                        <div class="text-2xl font-bold font-geist">080-8046-4316</div>
+                    </div>
+                    <p class="text-slate-600 font-geist text-center scroll-animate delay-600">事前予約・ご質問など<br>お気軽にお電話ください</p>
+                </div>
+            </div>
+            
+            <!-- お問い合わせフォーム -->
+            <div class="contact-form animate-fade-up delay-1500">
+                <div class="flex items-center gap-2 mb-6">
+                    <div class="w-8 h-8 bg-gradient-to-r from-blue-500 to-cyan-500 rounded-lg flex items-center justify-center">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-white">
+                            <path d="M14 9a2 2 0 0 1-2 2H6l-4 4V4c0-1.1.9-2 2-2h8a2 2 0 0 1 2 2v5Z"></path>
+                            <path d="M18 9h2a2 2 0 0 1 2 2v11l-4-4h-6a2 2 0 0 1-2-2v-1"></path>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-semibold text-slate-900 font-geist">お問い合わせフォーム</h3>
+                </div>
+                
+                <form class="space-y-4" id="contactForm">
+                    <div class="form-group">
+                        <label for="name" class="form-label font-geist">お名前 <span class="text-red-500">*</span></label>
+                        <input type="text" id="name" name="name" class="form-input font-geist" required>
+                        <div class="error-message font-geist" id="nameError">お名前を入力してください。</div>
+                    </div>
+                    
+                    <div class="contact-info-group">
+                        <label class="contact-info-label font-geist">連絡先情報 <span class="text-red-500">*</span>　メールか電話番号のどちらかを必ず入力してください</label>
+                        
+                        <div class="form-group">
+                            <label for="email" class="form-label font-geist">メールアドレス</label>
+                            <input type="email" id="email" name="email" class="form-input font-geist">
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="phone" class="form-label font-geist">電話番号</label>
+                            <input type="tel" id="phone" name="phone" class="form-input font-geist">
+                        </div>
+                        
+                        <div class="error-message font-geist" id="contactError">メールアドレスか電話番号のどちらかを入力してください。</div>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="message" class="form-label font-geist">お問い合わせ内容</label>
+                        <textarea id="message" name="message" class="form-input form-textarea font-geist" placeholder="ご質問やご相談などお気軽にお書きください"></textarea>
+                    </div>
+                    
+                    <button type="submit" class="form-button font-geist">
+                        送信する
+                    </button>
+                </form>
+            </div>
+        </div>
+
+        <!-- フッター -->
+        <div class="px-6 lg:px-12 py-6 border-t border-slate-200">
+            <p class="text-center text-slate-500 font-geist animate-fade-up delay-1500">&copy; 2025 大泉はなわクリニック 介護サロン. All rights reserved.</p>
+        </div>
+    </div>
+
+    <script src="js/script.js" defer></script>
+    <script defer>
+        // Lucideアイコンの初期化は非同期で実行
+        document.addEventListener('DOMContentLoaded', () => {
+            if (typeof lucide !== 'undefined' && lucide.createIcons) {
+                lucide.createIcons();
+            }
+        });
+    </script>
+</body>
+</html>
