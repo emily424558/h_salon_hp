@@ -20,6 +20,9 @@
     <meta name="twitter:title" content="大泉学園介護サロン | 理学療法士による健康講座">
     <meta name="twitter:description" content="大泉学園駅北口徒歩1分。理学療法士による健康・介護講座を開催。参加費無料、どなたでも参加可能です。">
     
+    <!-- ヒーロー画像のプリロード -->
+    <link rel="preload" as="image" href="images/hero-background.jpg" type="image/jpeg">
+    
     <!-- フォント読み込み最適化 -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -63,8 +66,11 @@
         <div class="absolute inset-0 z-0">
             <img src="images/hero-background.jpg" 
                  alt="高齢者の方々が体操をしている様子" 
+                 width="2000" 
+                 height="1333"
                  class="w-full h-full object-cover"
-                 loading="eager">
+                 loading="eager"
+                 fetchpriority="high">
             <div class="absolute inset-0 bg-gradient-to-b from-black/50 via-black/40 to-black/60" aria-hidden="true"></div>
         </div>
         
@@ -510,11 +516,11 @@
                 </form>
             </div>
         </div>
+    </main>
 
-        <!-- フッター -->
-        <div class="px-6 lg:px-12 py-6 border-t border-slate-200 no-x-scroll">
-            <p class="text-center text-slate-500 font-geist animate-fade-up delay-1500">&copy; 2025 大泉はなわクリニック 介護サロン. All rights reserved.</p>
-        </div>
+    <!-- フッター -->
+    <div class="px-6 lg:px-12 py-6 border-t border-slate-200 no-x-scroll">
+        <p class="text-center text-slate-500 font-geist animate-fade-up delay-1500">&copy; 2025 大泉はなわクリニック 介護サロン. All rights reserved.</p>
     </div>
 
     <script src="js/script.js" defer></script>

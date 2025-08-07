@@ -604,8 +604,14 @@ input[type="email"], input[type="url"], input[type="tel"] {
     overflow-wrap: break-word;
 }
 
-/* コンテナ全体の最大幅制御 */
-.container, main, section, div {
+/* 特定要素の最大幅制御 - フレームワークスタイルとの競合を避けるため、より具体的なセレクターを使用 */
+.hero-content-wrapper,
+.hero-message-container,
+.info-card,
+.enhanced-panel,
+.contact-form,
+.contact-info-group,
+.fee-info-container {
     max-width: 100%;
 }
 
