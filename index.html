@@ -56,12 +56,12 @@
     }
     </script>
 </head>
-<body class="min-h-screen bg-gradient-to-br from-blue-50 via-sky-50 to-cyan-50" style="font-family: Inter, sans-serif;">
+<body class="min-h-screen bg-gradient-to-br from-blue-50 via-sky-50 to-cyan-50 no-x-scroll" style="font-family: Inter, sans-serif;">
     <!-- メインヘッダー -->
     <header class="hero-section relative h-[40vh] md:h-[45vh] flex items-center justify-center overflow-hidden" role="banner">
         <!-- 背景画像 -->
         <div class="absolute inset-0 z-0">
-            <img src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?ixlib=rb-4.0.3&auto=format&fit=crop&w=2000&q=80" 
+            <img src="images/hero-background.jpg" 
                  alt="高齢者の方々が体操をしている様子" 
                  class="w-full h-full object-cover"
                  loading="eager">
@@ -78,9 +78,9 @@
                 
                 <div class="hero-subtitle text-lg md:text-xl font-geist mb-6">
                     <div class="hero-message-container">
-                        <p class="hero-message opacity-0" data-message="1">理学療法士による無料講座で<br>健やかな毎日をサポートします</p>
-                        <p class="hero-message opacity-0" data-message="2">大泉学園駅北口から徒歩1分！<br>フォンターナ琴坂7階で開催</p>
-                        <p class="hero-message opacity-0" data-message="3">健康づくりや介護や体操を覚えたい方<br>ぜひご参加ください！</p>
+                        <p class="hero-message opacity-0" data-message="1">理学療法士による無料講座で<br class="hidden md:block">健やかな毎日をサポートします</p>
+                        <p class="hero-message opacity-0" data-message="2">大泉学園駅北口から徒歩1分！<br class="hidden md:block">フォンターナ琴坂7階で開催</p>
+                        <p class="hero-message opacity-0" data-message="3">健康づくりや介護や体操を覚えたい方<br class="hidden md:block">ぜひご参加ください！</p>
                     </div>
                 </div>
                 
@@ -92,11 +92,11 @@
     </header>
 
     <!-- メインコンテンツ -->
-    <main id="content" class="w-full max-w-6xl mx-auto overflow-hidden flex flex-col animate-blur-in bg-white/90 border-white/20 border rounded-3xl shadow-[0px_0px_0px_1px_rgba(0,0,0,0.06),0px_1px_1px_-0.5px_rgba(0,0,0,0.06),0px_3px_3px_-1.5px_rgba(0,0,0,0.06),_0px_6px_6px_-3px_rgba(0,0,0,0.06),0px_12px_12px_-6px_rgba(0,0,0,0.06),0px_24px_24px_-12px_rgba(0,0,0,0.06)] backdrop-blur-xl my-8 relative z-20" role="main">
+    <main id="content" class="w-full max-w-6xl mx-auto overflow-hidden flex flex-col animate-blur-in bg-white/90 border-white/20 border rounded-3xl shadow-[0px_0px_0px_1px_rgba(0,0,0,0.06),0px_1px_1px_-0.5px_rgba(0,0,0,0.06),0px_3px_3px_-1.5px_rgba(0,0,0,0.06),_0px_6px_6px_-3px_rgba(0,0,0,0.06),0px_12px_12px_-6px_rgba(0,0,0,0.06),0px_24px_24px_-12px_rgba(0,0,0,0.06)] backdrop-blur-xl my-8 relative z-20 no-x-scroll" role="main">
         <!-- 特徴セクション -->
         <section class="pt-4 pb-8" aria-labelledby="features-heading">
             <h2 id="features-heading" class="section-title text-2xl lg:text-3xl font-space-grotesk animate-fade-up delay-500">サロンの特徴</h2>
-            <div class="px-6 lg:px-12">
+            <div class="px-6 lg:px-12 no-x-scroll">
                 <div class="grid grid-cols-1 md:grid-cols-3 gap-6" role="list">
                 <article class="enhanced-panel animate-fade-up delay-600" role="listitem">
                     <div class="w-12 h-12 bg-gradient-to-br from-blue-400 to-blue-600 rounded-xl flex items-center justify-center mb-4 animate-fade-up delay-700" aria-hidden="true">
@@ -104,8 +104,8 @@
                             <path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.29 1.51 4.04 3 5.5l7 7Z"></path>
                         </svg>
                     </div>
-                    <h3 class="subsection-title text-lg font-semibold font-geist animate-fade-up delay-800">専門講師による講座</h3>
-                    <p class="text-slate-600 font-geist animate-fade-up delay-900">理学療法士が講師として健康・介護に関するお話を担当します。専門的な知識を分かりやすくお伝えします。</p>
+                    <h3 class="subsection-title text-lg font-semibold font-geist animate-fade-up delay-800">専門講師による<wbr>講座</h3>
+                    <p class="text-slate-600 font-geist animate-fade-up delay-900">理学療法士が講師として<wbr>健康・介護に関する<wbr>お話を担当します。<wbr>専門的な知識を<wbr>分かりやすく<wbr>お伝えします。</p>
                 </article>
                 
                 <article class="enhanced-panel animate-fade-up delay-700" role="listitem">
@@ -118,7 +118,7 @@
                         </svg>
                     </div>
                     <h3 class="subsection-title text-lg font-semibold font-geist animate-fade-up delay-900">駅チカで通いやすい</h3>
-                    <p class="text-slate-600 font-geist animate-fade-up delay-1000">大泉学園駅北口から徒歩1分！フォンターナ琴坂（ローソンのビル7階）で開催しています。</p>
+                    <p class="text-slate-600 font-geist animate-fade-up delay-1000">大泉学園駅<wbr>北口から<wbr>徒歩1分！<wbr>フォンターナ<wbr>琴坂<wbr>（ローソンのビル<wbr>7階）で<wbr>開催しています。</p>
                 </article>
                 
                 <article class="enhanced-panel animate-fade-up delay-800" role="listitem">
@@ -129,7 +129,7 @@
                         </svg>
                     </div>
                     <h3 class="subsection-title text-lg font-semibold font-geist animate-fade-up delay-1000">実践的な内容</h3>
-                    <p class="text-slate-600 font-geist animate-fade-up delay-1100">前半は健康や介護の基礎講話、後半はみんなで簡単な体操を行います。どちらかのみの参加も歓迎です。</p>
+                    <p class="text-slate-600 font-geist animate-fade-up delay-1100">前半は<wbr>健康や<wbr>介護の<wbr>基礎講話、<wbr>後半は<wbr>みんなで<wbr>簡単な<wbr>体操を<wbr>行います。<wbr>どちらかのみの<wbr>参加も<wbr>歓迎です。</p>
                 </article>
             </div>
         </div>
@@ -137,7 +137,7 @@
         <!-- 詳細情報セクション -->
         <div class="py-8">
             <h2 class="section-title text-2xl lg:text-3xl font-space-grotesk animate-fade-up delay-900">講座について</h2>
-            <div class="px-6 lg:px-12">
+            <div class="px-6 lg:px-12 no-x-scroll">
             <!-- こんな方におすすめです -->
             <div class="enhanced-panel animate-slide-right delay-1000 mb-8">
                 <h3 class="subsection-title text-xl font-semibold font-geist">こんな方におすすめです</h3>
@@ -195,7 +195,7 @@
                                 </div>
                                 <div>
                                     <h4 class="text-base font-semibold text-orange-800 font-geist">事前予約が必要です</h4>
-                                    <p class="text-sm text-orange-700 font-geist">お電話でお申し込みください</p>
+                                    <p class="text-sm text-orange-700 font-geist">お電話で<wbr>お申し込み<wbr>ください</p>
                                 </div>
                             </div>
                         </div>
@@ -212,8 +212,8 @@
                             <div class="flex items-start gap-3">
                                 <div class="w-6 h-6 bg-gradient-to-r from-blue-500 to-cyan-500 text-white rounded-full flex items-center justify-center text-sm font-semibold">1</div>
                                 <div>
-                                    <h4 class="font-medium text-slate-900 font-geist">前半：健康や介護の基礎講話</h4>
-                                    <p class="text-slate-600 text-sm font-geist">専門知識を分かりやすく解説</p>
+                                    <h4 class="font-medium text-slate-900 font-geist">前半：<wbr>健康や<wbr>介護の<wbr>基礎講話</h4>
+                                    <p class="text-slate-600 text-sm font-geist">専門知識を<wbr>分かりやすく<wbr>解説</p>
                                 </div>
                             </div>
                         </div>
@@ -221,8 +221,8 @@
                             <div class="flex items-start gap-3">
                                 <div class="w-6 h-6 bg-gradient-to-r from-blue-500 to-cyan-500 text-white rounded-full flex items-center justify-center text-sm font-semibold">2</div>
                                 <div>
-                                    <h4 class="font-medium text-slate-900 font-geist">後半：みんなで簡単な体操</h4>
-                                    <p class="text-slate-600 text-sm font-geist">実践的な運動を一緒に</p>
+                                    <h4 class="font-medium text-slate-900 font-geist">後半：<wbr>みんなで<wbr>簡単な<wbr>体操</h4>
+                                    <p class="text-slate-600 text-sm font-geist">実践的な<wbr>運動を<wbr>一緒に</p>
                                 </div>
                             </div>
                         </div>
@@ -231,7 +231,7 @@
                                 <div class="w-6 h-6 bg-gradient-to-r from-blue-500 to-cyan-500 text-white rounded-full flex items-center justify-center text-sm font-semibold">3</div>
                                 <div>
                                     <h4 class="font-medium text-slate-900 font-geist">お茶菓子タイム</h4>
-                                    <p class="text-slate-600 text-sm font-geist">ささやかなお茶の時間</p>
+                                    <p class="text-slate-600 text-sm font-geist">ささやかな<wbr>お茶の<wbr>時間</p>
                                 </div>
                             </div>
                         </div>
@@ -273,10 +273,10 @@
                                 </div>
                                 <h4 class="font-medium text-slate-900 font-geist">次回予定</h4>
                             </div>
-                            <p class="text-slate-900 font-semibold font-geist text-lg">9/11(木)1300-1500に開催</p>
+                            <p class="text-slate-900 font-semibold font-geist text-lg">9/11(木)<wbr>13:00-15:00に<wbr>開催</p>
                             <div class="mt-3 text-sm text-slate-600 font-geist">
-                                <p>今後の予定：11月・1月・3月</p>
-                                <p>各回 木曜 13:00～15:00予定</p>
+                                <p>今後の予定：<br class="hidden sm:block">11月・1月・3月</p>
+                                <p>各回 木曜<br class="hidden sm:block">13:00～<wbr>15:00予定</p>
                             </div>
                         </div>
                     </div>
@@ -311,16 +311,19 @@
                                 
                                 <!-- プロフィール情報 -->
                                 <div class="flex-1 text-center md:text-left">
-                                    <p class="text-slate-700 font-geist text-sm leading-relaxed mb-4">
-                                        <span class="font-semibold">年齢：</span>37歳<br>
-                                        <span class="font-semibold">経歴：</span>理学療法士歴11年<br>
-                                        <span class="font-semibold">専門：</span>練馬区を中心に訪問リハビを担当<br>
-                                        <span class="font-semibold">趣味：</span>ブレイクダンス
-                                    </p>
-                                    <p class="text-slate-600 font-geist text-sm italic bg-slate-50 p-3 rounded-lg">
-                                        「正しく動けば身体は変わる」を信念に、前向きに取り組めるリハビを心がけています。
-                                    </p>
+                                                        <p class="text-slate-700 font-geist text-sm leading-relaxed mb-4">
+                        <span class="font-semibold">年齢：</span>37歳<br>
+                        <span class="font-semibold">経歴：</span>理学療法士歴11年<br>
+                        <span class="font-semibold">専門：</span>練馬区を<wbr>中心に<br class="hidden sm:block">訪問<wbr>リハビリを<wbr>担当<br>
+                        <span class="font-semibold">趣味：</span>ブレイクダンス
+                    </p>
                                 </div>
+                            </div>
+                            <!-- プロフィール文章を全幅で独立表示 -->
+                            <div class="mt-4 w-full">
+                                <p class="text-slate-600 font-geist text-sm italic bg-slate-50 p-4 rounded-lg text-center">
+                                    「正しく動けば身体は変わる」<wbr>を信念に、前向きに取り組める<wbr>リハビリを心がけています。
+                                </p>
                             </div>
                         </div>
                     </div>
@@ -341,13 +344,13 @@
                                 </div>
                                 <div class="flex-1">
                                     <h4 class="font-semibold text-slate-900 font-geist mb-2">持ち物不要</h4>
-                                    <p class="text-slate-600 font-geist text-sm mb-3">
-                                        特別な持ち物は必要ありません。お気軽にご参加ください。
-                                    </p>
-                                    <h4 class="font-semibold text-slate-900 font-geist mb-2">服装</h4>
-                                    <p class="text-slate-600 font-geist text-sm">
-                                        動きやすい服装でお越しください。体操の際に動きやすい服装であれば十分です。
-                                    </p>
+                                <p class="text-slate-600 font-geist text-sm mb-3">
+                                特別な持ち物は<br class="sm:hidden">必要ありません。<br class="hidden sm:block">お気軽にご参加ください。
+                            </p>
+                            <h4 class="font-semibold text-slate-900 font-geist mb-2">服装</h4>
+                            <p class="text-slate-600 font-geist text-sm">
+                                動きやすい服装で<wbr>お越しください。<wbr>体操の際に<wbr>動きやすい服装で<wbr>あれば十分です。
+                            </p>
                                 </div>
                             </div>
                         </div>
@@ -367,15 +370,15 @@
                             </svg>
                         </div>
                         <div class="flex-1">
-                            <h4 class="font-semibold text-slate-900 font-geist mb-2">練馬区介護サービス公式ページ</h4>
+                            <h4 class="font-semibold text-slate-900 font-geist mb-2">練馬区介護サービス<br class="sm:hidden">公式ページ</h4>
                             <p class="text-slate-600 font-geist text-sm mb-3">
-                                介護サロンやその他の介護サービスについての詳細情報をご確認いただけます。
+                                介護サロンや<wbr>その他の<wbr>介護サービス<wbr>について<wbr>の<br class="hidden sm:block">詳細情報を<wbr>ご確認<wbr>いただけます。
                             </p>
                             <a href="https://www.city.nerima.tokyo.jp/hokenfukushi/koreisha/kaigoshashien.html" 
                                target="_blank" 
                                rel="noopener noreferrer" 
                                class="inline-flex items-center gap-2 text-blue-600 hover:text-blue-700 font-medium text-sm transition-colors">
-                                練馬区介護サービスページへ
+                                練馬区<wbr>介護サービス<wbr>ページへ
                                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                                     <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
                                     <polyline points="15,3 21,3 21,9"></polyline>
@@ -389,7 +392,7 @@
         </div>
 
         <!-- アクセス・お問い合わせセクション -->
-        <div id="contact" class="px-6 lg:px-12 py-8">
+        <div id="contact" class="px-6 lg:px-12 py-8 no-x-scroll">
             <h2 class="section-title text-2xl lg:text-3xl font-space-grotesk text-center mb-8 scroll-animate">アクセス・お問い合わせ</h2>
             <div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
                 <div class="enhanced-panel scroll-animate delay-100">
@@ -405,10 +408,12 @@
                                 <h3 class="text-lg font-semibold text-slate-900 font-geist">開催場所</h3>
                             </div>
                             <p class="text-slate-600 font-geist text-sm scroll-animate delay-300">〒178-0063</p>
-                            <p class="text-slate-600 font-geist scroll-animate delay-400">東京都練馬区東大泉１丁目２８−７</p>
-                            <p class="text-slate-600 font-geist scroll-animate delay-500">フォンターナ琴坂 7階</p>
-                            <p class="text-slate-600 font-geist scroll-animate delay-600">（ローソンのビル）</p>
-                            <p class="text-slate-600 font-geist scroll-animate delay-700">大泉学園駅北口から徒歩1分</p>
+                            <div class="space-y-1">
+                                <p class="text-slate-600 font-geist scroll-animate delay-400">東京都<wbr>練馬区<wbr>東大泉<wbr>１丁目<wbr>２８−７</p>
+                                <p class="text-slate-600 font-geist scroll-animate delay-500">フォンターナ<wbr>琴坂 7階</p>
+                                <p class="text-slate-600 font-geist scroll-animate delay-600">（ローソンのビル）</p>
+                                <p class="text-slate-600 font-geist scroll-animate delay-700">大泉学園駅<wbr>北口から<wbr>徒歩1分</p>
+                            </div>
                             
                             <!-- Googleマップ -->
                             <div class="mt-4 rounded-lg overflow-hidden shadow-lg">
@@ -449,13 +454,13 @@
                                 <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92Z"></path>
                             </svg>
                         </div>
-                        <h3 class="text-lg font-semibold text-slate-900 font-geist">お申し込み・お問い合わせ</h3>
+                        <h3 class="text-lg font-semibold text-slate-900 font-geist">お申し込み・<wbr>お問い合わせ</h3>
                     </div>
-                    <p class="text-slate-600 font-geist mb-3 scroll-animate delay-400">担当：高橋（介護サロン専用窓口）</p>
+                    <p class="text-slate-600 font-geist mb-3 scroll-animate delay-400">担当：高橋<br class="sm:hidden">（介護サロン<wbr>専用窓口）</p>
                     <div class="bg-gradient-to-r from-blue-500 to-cyan-500 text-white text-center py-4 px-6 rounded-xl mb-4 scroll-animate delay-500">
                         <div class="text-2xl font-bold font-geist">080-8046-4316</div>
                     </div>
-                    <p class="text-slate-600 font-geist text-center scroll-animate delay-600">事前予約・ご質問など<br>お気軽にお電話ください</p>
+                    <p class="text-slate-600 font-geist text-center scroll-animate delay-600">事前予約・<wbr>ご質問など<br>お気軽に<wbr>お電話<wbr>ください</p>
                 </div>
             </div>
             
@@ -479,7 +484,7 @@
                     </div>
                     
                     <div class="contact-info-group">
-                        <label class="contact-info-label font-geist">連絡先情報 <span class="text-red-500">*</span>　メールか電話番号のどちらかを必ず入力してください</label>
+                        <label class="contact-info-label font-geist">連絡先情報 <span class="text-red-500">*</span><br class="sm:hidden">メールか<wbr>電話番号の<wbr>どちらかを<wbr>必ず入力<wbr>してください</label>
                         
                         <div class="form-group">
                             <label for="email" class="form-label font-geist">メールアドレス</label>
@@ -491,7 +496,7 @@
                             <input type="tel" id="phone" name="phone" class="form-input font-geist">
                         </div>
                         
-                        <div class="error-message font-geist" id="contactError">メールアドレスか電話番号のどちらかを入力してください。</div>
+                        <div class="error-message font-geist" id="contactError">メールアドレスか<wbr>電話番号の<wbr>どちらかを<wbr>入力してください。</div>
                     </div>
                     
                     <div class="form-group">
@@ -507,7 +512,7 @@
         </div>
 
         <!-- フッター -->
-        <div class="px-6 lg:px-12 py-6 border-t border-slate-200">
+        <div class="px-6 lg:px-12 py-6 border-t border-slate-200 no-x-scroll">
             <p class="text-center text-slate-500 font-geist animate-fade-up delay-1500">&copy; 2025 大泉はなわクリニック 介護サロン. All rights reserved.</p>
         </div>
     </div>
